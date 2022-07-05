@@ -1,0 +1,72 @@
+.Weather .Form {
+  border-style: solid;
+  border-color: #5a6275;
+  border-width: 1px;
+  width: 250px;
+}
+.Weather .Button {
+  color: #5a6aca;
+  background-color: white;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #5a6275;
+  border-width: 1px;
+  padding: 2px 8px;
+  margin-left: 10px;
+  transition: all 200ms ease-in-out;
+}
+.Weather .Button:hover {
+  color: white;
+  background-color: #5a6aca;
+  border-color: white;
+}
+.Weather h2 {
+  color: white;
+  padding-top: 10px;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+.Weather li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.Weather .day-time {
+  color: #45a6f5;
+  font-size: 12pt;
+  font-style: italic;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  padding: 5px 0px 5px 0px;
+}
+
+.Weather .Weather-image {
+  float: left;
+  position: relative;
+  left: -15px;
+}
+.Weather .Degree {
+  font-size: 34pt;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  position: relative;
+  top: 3px;
+  left: -10px;
+}
+.Weather .Units {
+  color: white;
+  position: relative;
+  bottom: 15px;
+  left: -15px;
+  font-family: "Poppins", sans-serif;
+}
+.Weather .Weather-details {
+  color: white;
+  font-size: 20px;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}

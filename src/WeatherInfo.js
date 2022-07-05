@@ -12,7 +12,7 @@ export default function WeatherInfo(props) {
       </ul>
       <div className="container">
         <div className="row">
-          <div className="column">
+          <div className="col">
             <img
               src={props.data.imgUrl}
               alt="sunny"
@@ -24,7 +24,7 @@ export default function WeatherInfo(props) {
             </span>
             <span className="Units">°C | °F</span>
           </div>
-          <div className="column">
+          <div className="col">
             <ul className="Weather-details">
               <li className="text-capitalize">
                 Condition: {props.data.description}
