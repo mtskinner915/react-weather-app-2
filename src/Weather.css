@@ -44,24 +44,25 @@
   padding: 5px 0px 5px 0px;
 }
 
-.Weather .Weather-image {
+.Weather canvas {
   float: left;
   position: relative;
   left: -15px;
+  top: 10px;
 }
 .Weather .Degree {
   font-size: 34pt;
   font-family: "Poppins", sans-serif;
   color: white;
   position: relative;
-  top: 3px;
-  left: -10px;
+  top: 10px;
+  left: 0px;
 }
 .Weather .Units {
   color: white;
   position: relative;
-  bottom: 15px;
-  left: -15px;
+  bottom: 10px;
+  left: -6px;
   font-family: "Poppins", sans-serif;
 }
 .Weather .Weather-details {
