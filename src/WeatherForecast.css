@@ -4,8 +4,23 @@
 
 .WeatherForecast-day {
   margin-bottom: 5px;
+  color: white;
 }
 .WeatherForecast-min {
   opacity: 0.6;
   margin-left: 5px;
+  color: white;
+}
+.WeatherForecast-max {
+  color: white;
+}
+
+.col {
+  border-color: #45a6f5;
+  border-style: solid;
+  border-width: 1px;
+  padding: 3px 0px 3px 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
 }
